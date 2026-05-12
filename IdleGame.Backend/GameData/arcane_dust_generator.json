@@ -1,0 +1,8 @@
+{
+  "BasePassiveRate": 1,
+  "PassiveRatePerLevel": 0.5,
+  "BaseTapAmount": 5,
+  "TapAmountPerLevel": 1,
+  "BaseUpgradeCost": 100,
+  "UpgradeCostMultiplier": 1.15
+}
