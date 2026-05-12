@@ -8,16 +8,11 @@ namespace IdleGame.Backend.Definitions
 {
     internal class ArcaneDustGeneratorDefinition
     {
-        public static int BasePassiveRate { get; set; }
-
-        public static int PassiveRatePerLevel { get; set; }
-
-        public static int BaseTapAmount { get; set; }
-
-TapAmountPerLevel
-
-BaseUpgradeCost
-
-UpgradeCostMultiplier
+        public int BasePassiveRate { get; init; }
+        public int PassiveRatePerLevel { get; init; }
+        public int BaseTapAmount { get; init; }
+        public int TapAmountPerLevel { get; init; }
+        public int BaseUpgradeCost { get; init; }
+        public double UpgradeCostMultiplier { get; init; }
     }
 }
