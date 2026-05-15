@@ -24,6 +24,10 @@
     <Using Include="System.Threading.ExecutionContext" Alias="ExecutionContext" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="docs\technical\" />
+    <Folder Include="docs\systems\crafting\" />
+    <Folder Include="docs\systems\quests\" />
+    <Folder Include="docs\systems\progression\" />
     <Folder Include="GameData\" />
   </ItemGroup>
   <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
