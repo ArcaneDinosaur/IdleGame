@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace IdleGame.Backend.Definitions
+﻿namespace IdleGame.Backend.Definitions
 {
-    internal class ArcaneDustGeneratorDefinition
+    public class ArcaneDustGeneratorDefinition
     {
         public int BasePassiveRate { get; init; }
         public int PassiveRatePerLevel { get; init; }
