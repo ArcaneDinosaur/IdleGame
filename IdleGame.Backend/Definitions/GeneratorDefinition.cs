@@ -2,7 +2,7 @@
 {
     public class GeneratorDefinition
     {
-        public required string Id { get; init; }
+        public string Id { get; init; }
         public double BaseAmountPerCycle { get; init; }
         public double AmountPerLevel { get; init; }
         public int BaseUpgradeCost { get; init; }
